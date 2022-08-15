@@ -19,8 +19,8 @@ function solution(arr) {
 // reduce
 function solution(arr) {
   return (
-    arr.reduce((el, cu) => {
-      return el + cu;
+    arr.reduce((acc, cur) => {
+      return acc + cur;
     }) / arr.length
   );
   // 총합에서 배열의 길이 만큼 나눠주면 평균값
