@@ -8,6 +8,7 @@ function solution(num) {
   return num == 1 ? answer : -1;
 }
 
+// for문
 function solution(num) {
   let count = 0;
 
